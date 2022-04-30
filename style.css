@@ -1,0 +1,165 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.uni-padding {
+    padding: 0 5%;
+}
+
+#name{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #161D6F;
+}
+
+body hr{
+    background-color: #23120B;
+}
+
+.icons{
+    float: right;
+    margin: 8px;
+}
+.icons a{
+    padding: 3px;
+    color: #000;
+}
+
+.header-con{
+    background-color:#ececec ;
+}
+.url-con input{
+    margin-top: 40px;
+    width: 300px;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+.url-con button{
+    padding: 8px;
+    width: 130px;
+    background-color: #153E90;
+    border: none;
+    color: #23120B;
+    font-weight: bold;
+}
+.format{
+    padding: 8px;
+    width: 170px;
+    background-color:#ffff ;
+    border: none;
+    color: #23120B;
+    outline: none;
+    font-weight: bold;
+}
+.url-con button:hover{
+    padding: 8px;
+    background-color :#0E49B5;
+}
+
+.url-con {
+   text-align: center;
+   background-color: #98DED9;
+}
+/* privacy page */
+#privacy-desc {
+    background-color: #98DED9;
+}
+
+#privacy-desc p, ul, ol {
+    text-align: justify;
+    font-family: Poppins;
+}
+.privacy-desc h4{
+    color: #3E64FF;
+}
+#p-heading{
+    color: #0E49B5;
+}
+
+@media only screen and (min-width: 425px) {
+    .url-con input{
+        margin-bottom: 10px;
+        width: 320px;
+        padding: 8px;
+        outline: none;
+        border: none;
+    }
+    .url-con button{
+        padding: 8px;
+        width: 140px;
+        background-color: #153E90;
+        border: none;
+        color: #23120B;
+        font-weight: bold;
+    }
+    .format{
+        padding: 8px;
+        width: 170px;
+        background-color:#ffff ;
+        border: none;
+        color: #23120B;
+        outline: none;
+        font-weight: bold;
+    }
+    .url-con p, .url-con a{
+       font-size: 15px;
+    }
+
+    #name{
+        font-size: medium;
+        font-weight: bold;
+        color: #161D6F;
+    }
+
+    .icons{
+        float: right;
+        margin: 2px;
+    }
+}
+@media only screen and (min-width: 375px) {
+    .url-con input{
+        margin-bottom: 10px;
+        width: 290px;
+        padding: 8px;
+        outline: none;
+        border: none;
+    }
+   
+}
+@media only screen and (max-width: 320px) {
+    
+    .url-con input{
+        margin-bottom: 10px;
+        width: 234px;
+        padding: 8px;
+        outline: none;
+        border: none;
+    }
+    .url-con button{
+        padding: 8px;
+        width: 250px;
+        background-color: #153E90;
+        border: none;
+        color: #23120B;
+        font-weight: bold;
+    }
+    .format{
+        padding: 8px;
+        margin-bottom: 10px;
+        width: 250px;
+        background-color:#ffff ;
+        border: none;
+        color: #23120B;
+        outline: none;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width> 425px) {
+    
+    #name{
+        font-size: xx-large;
+        font-weight: bold;
+        color: #161D6F;
+    }
+}
+
