@@ -1,6 +1,12 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+body {
+    background-image: url(wink-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .uni-padding {
     padding: 0 5%;
 }
@@ -27,6 +33,7 @@ body hr{
 .header-con{
     background-color:#ececec ;
 }
+
 .url-con input{
     margin-top: 40px;
     width: 300px;
